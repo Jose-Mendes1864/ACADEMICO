@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions', 
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'academico',
+    'app',
 
 ]
 
@@ -125,7 +125,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(STATIC_URL, "static")
 STATICFILLES_DIRS = [
-    os.path.join(BASE_DIR, 'academico/static/'),
+    os.path.join(BASE_DIR, 'app/static/'),
     
 ]
 # Default primary key field type
